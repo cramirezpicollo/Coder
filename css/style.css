@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.logo{
+
+    height: 150px;
+    width: 300px;
+    cursor: pointer;
+}
+
+header{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ppal{
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0px 30px;
+    
+}
+
+.compra{
+    flex-direction: column;
+    padding:5px 10px;
+    background-color: gold;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.rs{
+    display: inline-block;
+    padding: 0px 10px;   
+
+}
+   
+
+form{
+    display: flex;
+    padding: 50px 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 10px;
+
+}
+
+input{
+    width: 400px;
+}
+
+.divnombreyapellido{
+    padding: 10px 0px;
+    position: relative;
+    left: 13px;
+    
+}
+
+.divemail{
+    padding: 10px 0px;
+    position: relative;
+    left: 102px;
+
+}
+
+textarea{
+    margin: 10px 0px;
+    width: 400px;
+    position: relative;
+    left: 145px;
+
+}
+
+.boton{
+    width: 90px;
+}
+
+.divboton{
+    position: relative;
+    left: 365px;
+
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 50px;
+    gap: 40px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.ubi{
+    text-align: center;
+    position: relative;
+    right: 250px;
+}
+
+.mapita{
+    position: absolute;
+    left: 600px;
+    bottom: 50px;
+
+}
+
+.tortas{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 40px;
+    overflow: hidden;
+   
+    
+}
+
+.chocolate{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.fondotitulo{
+    width: 100%;
+    height: 300px;
+   
+}
+
+.titulocatalogo{
+    font-size: 80px;
+    position: absolute;
+    bottom: 50%;
+    right: 200px;
+    
+}
+
+.img1{
+    width: 380px;
+    height: 380px;
+   
+}
+
+.lista1{
+    position: relative;
+    left: 35%;
+    bottom: 300px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.img2{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    bottom: 150px;
+   
+}
+.lista2{
+    position: relative;
+    left: 35%;
+    bottom: 450px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.img3{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    bottom: 300px;
+   
+}
+.lista3{
+    position: relative;
+    left: 35%;
+    width: 65%;
+    bottom: 600px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.img4{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    bottom: 480px;
+   
+}
+.lista4{
+    position: relative;
+    left: 35%;
+    width: 65%;
+    bottom: 800px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.clasicas{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.fondoclasicas{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 300px;
+    right: 0px;
+    
+   
+}
+
+.tituloclasicas{
+    font-size: 80px;
+    position: absolute;
+    bottom: 400px;
+    right: 200px;
+    
+}
+
+.img5{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    bottom: 300px;
+   
+}
+.lista5{
+    position: relative;
+    left: 35%;
+    width: 65%;
+    bottom: 600px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.img6{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    bottom: 480px;
+   
+}
+.lista6{
+    position: relative;
+    left: 35%;
+    width: 65%;
+    bottom: 750px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.img7{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    bottom: 580px;
+   
+}
+.lista7{
+    position: relative;
+    left: 35%;
+    width: 65%;
+    bottom: 850px;
+    font-size: 20px;
+    line-height: 2rem;
+   
+}
+
+.info{
+     display: flex;
+     padding: 20px 20px;
+     font-family: 'Montserrat', sans-serif;
+     text-align: justify;
+     gap: 40px;
+     
+}
+
+.calus{
+    width: 600px;
+    height: 600px;
+}
+
+.infocalus{
+    width: 600px;
+    line-height: 1.5rem;
+    
+}
+
+.mainindex{
+    display: flex;
+    overflow: hidden;
+    
+}
+
+
+.i{
+   width: 1400%px;
+   height: 1400px;
+   flex-direction: column;
+   display: inline-block;
+
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
