@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calus Cakes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-   <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
 
 </head>
+
 <body>
-    <header>
 
-        <a href="../index.html"><img src="../img/logo.jpg" alt=""></a>
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="logo" href="../index.html"><img src="../img/logo.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ppal">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="catalogo.html">CATÁLOGO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienesSomos.html">QUIÉNES SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dondeEstamos.html">DÓNDE ESTAMOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PEDIDOS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contacto.html">CONTACTO</a></li>
+                            <li><a class="dropdown-item" href="contacto.html">PEDI ONLINE</a></li>
 
-        <nav>
-            <ul>
-                <li class="ppal"><a href="catalogo.html">Catálogo</a></li>
-                <li class="ppal"><a href="quienesSomos.html">Quiénes Somos</a></li>
-                <li class="ppal"><a href="dondeEstamos.html">Dónde Estamos</a></li>
-            </ul>
-        </nav>
-
-        <nav>
-
-            <div class="compra">
-                <a href="contacto.html">Contacto</a>
-            </div>
-            
-            <div class="compra">
-                <a href="">Pedí Online</a>
-            </div>
-
-        </nav>
-
-
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <div class="info">
-            
+
             <div class="infocalus">
-            <h1>Madre y Cocinera</h1>
-            <br>
-            <h2>Amigas, amigos...¡bienvenidos a mi mundo!</h2>
-            <br> 
-            <p>Mi pasión por la cocina empezó de chiquita, gracias a mi mamá y mis abuelas, que me inculcaron el oficio con mucho amor y dedicación. Desde que tengo recuerdo soy acumuladora de recetas, y a los 12 años comencé a hacer mis primeras tortas por encargo a familiares, amigos y vecinos del barrio</p>
-            <br>
-            <p>No todos lo saben, pero soy licenciada en Administración de Empresas, y fue durante los años de carrera que un compañero me acercó al trabajo que cambiaría y definiría para siempre mi futuro: cocinar junto a Francis Mallmann.</p>
-            <br>
-            <p>Comencé como ayudante de pastelería siendo la única mujer en una cocina de hombres, y poco a poco me fui ganando mi lugar a fuerza de sacrificio y compromiso, quizás porque desde temprano siempre tuve algo que a esa edad no es tan común: un foco. Fueron cuatro años de duro trabajo recorriendo los mejores restaurantes del mundo de la mano de Francis, hasta que un día fue él quien me dijo que ya estaba lista para “volar por mi propia cuenta”.</p>
-            <br>
-            <p>Hoy en día, además de participar activamente en las recetas y administración general de mi local, intento llegar a todos los hogares compartiendo a través de mis redes sociales todos mis secretos y conocimientos para que la gente haga y practique mis recetas en sus casas. Ahora sí, ¡bienvenidos a mi mundo!</p>
-        
+                <h1>Madre y Cocinera</h1>
+                <br>
+                <h2>Amigas, amigos...¡bienvenidos a mi mundo!</h2>
+                <br>
+                <p>Mi pasión por la cocina empezó de chiquita, gracias a mi mamá y mis abuelas, que me inculcaron el
+                    oficio con mucho amor y dedicación. Desde que tengo recuerdo soy acumuladora de recetas, y a los 12
+                    años comencé a hacer mis primeras tortas por encargo a familiares, amigos y vecinos del barrio</p>
+                <br>
+                <p>No todos lo saben, pero soy licenciada en Administración de Empresas, y fue durante los años de
+                    carrera que un compañero me acercó al trabajo que cambiaría y definiría para siempre mi futuro:
+                    cocinar junto a Francis Mallmann.</p>
+                <br>
+                <p>Comencé como ayudante de pastelería siendo la única mujer en una cocina de hombres, y poco a poco me
+                    fui ganando mi lugar a fuerza de sacrificio y compromiso, quizás porque desde temprano siempre tuve
+                    algo que a esa edad no es tan común: un foco. Fueron cuatro años de duro trabajo recorriendo los
+                    mejores restaurantes del mundo de la mano de Francis, hasta que un día fue él quien me dijo que ya
+                    estaba lista para “volar por mi propia cuenta”.</p>
+                <br>
+                <p>Hoy en día, además de participar activamente en las recetas y administración general de mi local,
+                    intento llegar a todos los hogares compartiendo a través de mis redes sociales todos mis secretos y
+                    conocimientos para que la gente haga y practique mis recetas en sus casas. Ahora sí, ¡bienvenidos a
+                    mi mundo!</p>
+
             </div>
-            
+
             <img class="calus" src="../img/calus.jpeg" alt="Calu">
-    
+
 
         </div>
 
@@ -66,13 +89,14 @@
 
         <nav>
             <div class="rs">
-                <a target="_blank" href="https://www.facebook.com/calus.cakes/?paipv=0&eav=AfZG12yCvxSAPC0ODUUS5IgTvZ2bst-lE6TEin83Mg0KImvx-PTTPgJy59rLAtOWj6A&_rdr">Facebook</a>
+                <a target="_blank"
+                    href="https://www.facebook.com/calus.cakes/?paipv=0&eav=AfZG12yCvxSAPC0ODUUS5IgTvZ2bst-lE6TEin83Mg0KImvx-PTTPgJy59rLAtOWj6A&_rdr">Facebook</a>
             </div>
-    
+
             <div class="rs">
                 <a target="_blank" href="https://www.instagram.com/calus.cakes/">Instagram</a>
             </div>
-    
+
             <div class="rs">
                 <a href="">Twitter</a>
             </div>
@@ -80,7 +104,9 @@
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 

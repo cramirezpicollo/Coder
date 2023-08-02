@@ -7,47 +7,33 @@
 
 .logo{
 
-    height: 150px;
-    width: 300px;
+    height: 25%;
+    width: 25%;
     cursor: pointer;
 }
 
 header{
     background-color:white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
 .ppal{
-    display: inline-block;
+    
     font-size: 1.4rem;
-    padding: 0px 30px;
-    
-}
-
-.compra{
-    flex-direction: column;
-    padding:5px 10px;
-    background-color: gold;
-    border: none;
-    border-radius: 50px;
-    text-align: center;
-    
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
+    padding: 3rem;
     font-weight: bold;
-
+   
 }
+
+.ppal li a:hover{
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
 
 footer{
     display: flex;
