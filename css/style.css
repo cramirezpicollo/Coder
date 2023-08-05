@@ -94,9 +94,8 @@ footer{
 
 .ubicacion{
     
-    padding: 50px 50px;
-    gap: 40px;
-    font-family: 'Montserrat', sans-serif;
+   padding: 20px 20px;
+   font-family: 'Montserrat', sans-serif;
    
 }
 
@@ -109,6 +108,7 @@ footer{
     .datosUbi{ 
         grid-template-rows: 50% 50%;
         object-fit: cover;
+        
     }
 }
 
@@ -153,6 +153,17 @@ footer{
 textarea{
     width: 400px;
 }
+
+@media(max-width: 500px) {
+    .hijoContacto{ 
+        width: 150px;}
+
+    textarea{
+        width: 300px ;
+    }
+}
+
+
 
 
 
