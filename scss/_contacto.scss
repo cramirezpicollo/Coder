@@ -1,0 +1,26 @@
+.contacto {
+    font-family: $font;
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+
+}
+
+.hijoContacto {
+    width: 250px;
+}
+
+textarea {
+    width: 400px;
+}
+
+@media(max-width: 500px) {
+
+    .hijoContacto {
+        width: 100px;
+    }
+
+    textarea {
+        width: 250px;
+    }
+}

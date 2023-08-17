@@ -1,0 +1,39 @@
+.logo {
+
+    width: 10rem;
+    cursor: pointer;
+}
+
+header {
+    background-color: white;
+    color: $color-font;
+    font-family: $font;
+
+}
+
+.ppal {
+
+    font-size: 1.4rem;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+
+}
+
+@mixin menu{ 
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.nav-link:hover {
+
+    @include menu;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+   @include menu;
+
+}

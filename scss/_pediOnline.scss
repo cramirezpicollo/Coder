@@ -1,0 +1,17 @@
+@import "variables";
+
+.enConstruccion {
+
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+@media(max-width: 500px) {
+
+    .fotoConstruccion {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

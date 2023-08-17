@@ -1,0 +1,20 @@
+.ubicacion {
+
+    padding: 10px 20px;
+    font-family: $font;
+
+}
+
+@media(max-width: 500px) {
+
+    .ubicacion {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+    }
+
+    .datosUbi {
+        object-fit: cover;
+    }
+
+}

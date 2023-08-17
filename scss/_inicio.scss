@@ -1,0 +1,22 @@
+.bienvenidos {
+    font-family: $font;
+    text-align: center;
+    padding: 0.2rem;
+
+}
+
+@keyframes inicio {
+    0% {
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+.bienve{
+    animation-name: inicio;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
