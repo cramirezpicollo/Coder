@@ -38,6 +38,7 @@ footer {
   padding: 7px 10px;
   font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 .bienvenidos {
@@ -165,13 +166,18 @@ textarea {
   display: grid;
   grid-template-columns: 100%;
   justify-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 1rem;
 }
 
-@media (max-width: 500px) {
+.infoPedido {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
   .fotoConstruccion {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: none;
   }
 }
 
